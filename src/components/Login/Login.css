@@ -1,6 +1,7 @@
 .form-container {
     width: 500px;
     margin: 0 auto;
+    margin-top: 50px;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
@@ -39,7 +40,12 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
 
+}
+
+.form-submit:hover {
+    background: rgba(255, 153, 0, 0.5);
 }
 
 .form-link {
